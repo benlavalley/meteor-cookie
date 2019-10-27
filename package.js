@@ -1,4 +1,5 @@
 Package.describe({
+  name: 'chuangbo:cookie',
   summary: "Simple cookies for browser.",
   version: "1.1.1",
   git: "https://github.com/chuangbo/meteor-cookie.git"
