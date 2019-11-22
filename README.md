@@ -1,5 +1,10 @@
 # Meteor Cookie
 
+### New
+
+Added options to set additional cookie parameter "SameSite" - can be "Strict", "Lax", or "None"
+More information here - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
+
 Wrapper of https://github.com/aralejs/cookie
 
 ## Installation
