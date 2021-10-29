@@ -5,8 +5,8 @@ Package.describe({
   git: "https://github.com/chuangbo/meteor-cookie.git"
 });
 
-Package.on_use(function (api) {
-  api.versionsFrom("METEOR@1.8.1");
+Package.onUse(function (api) {
+  api.versionsFrom("METEOR@2.5");
   api.use(['ecmascript'], ['client']);
   api.mainModule('cookie.js', 'client');
 });
